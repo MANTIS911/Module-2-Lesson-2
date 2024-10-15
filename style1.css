@@ -1,0 +1,31 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(red, orange, yellow, green, blue, purple);
+}
+
+@keyframes blob {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: orange;
+    }
+
+    50% {
+        background-color: yellow;
+    }
+
+    100% {
+        
+        background-color: green;
+    }
+}
+
+div {
+    width: 500px;
+    height: 500px;
+    background-color: blueviolet;
+    animation: blob 1s infinite;
+}

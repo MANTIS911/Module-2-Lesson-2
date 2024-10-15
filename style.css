@@ -1,0 +1,44 @@
+h1{
+    background-color: rgb(0, 238, 255);
+}
+
+body{
+    background-image: url("Video Game Wallpaper.jpg");
+
+    background-repeat: no-repeat;
+
+    background-size:cover;
+    background-position:center;
+    height: 100vh;
+
+    background-attachment: fixed;
+}
+
+div{
+    width: 700px;
+    height: 200px;
+}
+
+#div1{
+    background: linear-gradient(green,aqua);
+}
+
+#div2 {
+    background: linear-gradient(to right,silver, gold);
+}
+
+#div3 {
+    background: linear-gradient(to bottom right,rgb(0, 9, 128), rgb(119, 0, 255));
+}
+
+#div4 {
+    background: linear-gradient(to bottom right, red,orange,aqua);
+}
+
+#div5 {
+    background: radial-gradient( red, orange,yellow,green,blue,purple);
+}
+
+#div6 {
+    background: radial-gradient(circle,red 30%, orange, yellow, green, blue, purple);
+}
